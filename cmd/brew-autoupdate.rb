@@ -1,7 +1,8 @@
 #:  * `autoupdate --start` [interval] [`--upgrade`] [`--cleanup`] [`--enable-notification`]:
-#:    Start autoupdating either once every `interval` hours or once every 24 hours.
-#:    Please note the interval has to be passed in seconds, so 12 hours would be:
-#:      `brew autoupdate --start 43200`.
+#:    Start autoupdating once every `interval` seconds, or once every 24 hours if no
+#:    interval is given. Please note the interval has to be passed in seconds, so 12
+#:    hours would be:
+#:      `brew autoupdate --start 43200`
 #:
 #:    If `--upgrade` is specified, autoupdate will also upgrade your installed
 #:    formulae. If the Caskroom exists locally Casks will be upgraded as well.
